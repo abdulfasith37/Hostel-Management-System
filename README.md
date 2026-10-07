@@ -33,7 +33,7 @@ Meet the team behind this project:
 | **Team Member** | MFF. Fasla | `2023ICT053` | [@faisarfasla](https://github.com/faisarfasla) |
 | **Team Member** | WAS. Pabodha | `2023ICT047` | [@Sandupabo](https://github.com/Sandupabo) |
 | **Team Member** | RPDTD. Jayathilaka | `2023ICT052` | [@Pixicodenicer](https://github.com/Pixicodenicer) |
-| **Team Member** | Jayarasa Kavi | `2023ICT108` | [@kavippriyakavi5-art](https://github.com/kavippriyakavi5-art7) |
+| **Team Member** | Jeyarasa Kavippiriya | `2023ICT108` | [@kavippriyakavi5-art](https://github.com/kavippriyakavi5-art7) |
 | **Team Member** | RMAR. Bandara | `2023ICT046` | [@asheniravihari-crypto](https://github.com/asheniravihari-crypto) |
 
 ---
