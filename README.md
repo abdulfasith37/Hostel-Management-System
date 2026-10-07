@@ -29,7 +29,7 @@ Meet the team behind this project:
 
 | Role | Member Name | Student ID | GitHub |
 | :--- | :--- | :--- | :--- |
-| **Team Leader** | Abdul Fasith | `2023ICT107` | [@abdulfasith37](https://github.com/abdulfasith37) |
+| **Team Leader** | Najeem Abdul Fasith | `2023ICT107` | [@abdulfasith37](https://github.com/abdulfasith37) |
 | **Team Member** | MFF. Fasla | `2023ICT053` | [@faisarfasla](https://github.com/faisarfasla) |
 | **Team Member** | WAS. Pabodha | `2023ICT047` | [@Sandupabo](https://github.com/Sandupabo) |
 | **Team Member** | RPDTD. Jayathilaka | `2023ICT052` | [@Pixicodenicer](https://github.com/Pixicodenicer) |
