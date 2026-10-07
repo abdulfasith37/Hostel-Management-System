@@ -18,7 +18,7 @@ It replaces manual paperwork with a centralized digital system, providing three 
 ## 🛠️ Built With
 
 * **Backend:** PHP & MySQL
-* **Frontend:** HTML5/CSS and JS
+* **Frontend:** HTML/CSS and JS
 * **Tools:** Apache (XAMPP), VS Code & GitHub
 
 ---
