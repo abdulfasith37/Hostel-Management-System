@@ -15,7 +15,7 @@ if (isset($_GET['download']) && $_GET['download'] === 'csv') {
         FROM allocations a
         JOIN students s ON a.student_id = s.id
         JOIN beds b ON a.bed_id = b.id
-        JOIN rooms r ON b.room_id = r.id
+        JOIN rooms r ON b.room_id = r.id  
         JOIN blocks bl ON r.block_id = bl.id
         JOIN hostels h ON bl.hostel_id = h.id
     ");
