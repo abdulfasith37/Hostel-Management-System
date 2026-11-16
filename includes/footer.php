@@ -1,5 +1,5 @@
 <footer class="site-footer">
-    <p>&copy; 2026 University of Vavuniya. All rights reserved.</p>
+    <p>&copy; <?php echo date('Y');?> University of Vavuniya. All rights reserved.</p>
     <button type="button" class="btn-team" onclick="openTeamModal()">Meet the Team</button>
 </footer>
 

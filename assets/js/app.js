@@ -125,3 +125,15 @@ function toggleSinglePassword(inputId, btn) {
 function togglePasswordVisibility(trigger) {
     toggleAllPasswords(trigger);
 }
+
+
+// M3: Trim whitespace from text inputs before form validation / submit
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('form').forEach((form) => {
+    form.addEventListener('submit', () => {
+      form.querySelectorAll('input[type="text"], input[type="email"], input[type="tel"], textarea').forEach((input) => {
+        input.value = input.value.trim();
+      });
+    });
+  });
+});
