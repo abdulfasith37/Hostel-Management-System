@@ -80,6 +80,9 @@ INSERT INTO `hostels` (`name`, `gender_type`) VALUES
 INSERT INTO `blocks` (`hostel_id`, `block_name`) VALUES 
 (1, 'Block A');
 
+INSERT INTO `blocks` (`hostel_id`, `block_name`) VALUES 
+(2, 'Block A');
+
 INSERT INTO `rooms` (`block_id`, `room_no`, `floor_no`, `capacity`) VALUES 
 (1, '01', 1, 4), (1, '02', 1, 4), (1, '03', 1, 4);
 
