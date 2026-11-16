@@ -264,7 +264,7 @@ if ($managingRoomId) {
                 </div>
                 <div class="form-group">
                     <label>Initial Bed Capacity</label>
-                    <input type="number" name="capacity" class="form-control" value="<?= htmlspecialchars($editRoom['capacity'] ?? '2') ?>" min="1" max="6" <?= $editRoom ? 'readonly style="background:#f1f5f9;"' : 'required' ?>>
+                    <input type="number" name="capacity" class="form-control" value="<?= htmlspecialchars($editRoom['capacity'] ?? '2') ?>" min="1" max="5" <?= $editRoom ? 'readonly style="background:#f1f5f9;"' : 'required' ?>>
                 </div>
                 <div class="col-span-full" style="display: flex; gap: 10px;">
                     <?php if ($editRoom): ?>
