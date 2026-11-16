@@ -66,7 +66,7 @@ $batches = $pdo->query("SELECT DISTINCT batch_year FROM students ORDER BY batch_
             <p style="font-size: 0.85rem; color: var(--text-muted); margin: 8px 0 18px; line-height: 1.5;">
                 Executing check-out frees all occupied beds assigned to this batch and updates the students' status to 'Vacated'.
             </p>
-            <form method="POST" onsubmit="return confirmAction('Are you certain you want to check out this batch? All beds will be freed.')">
+            <form method="POST" onsubmit="return confirm('Are you want to process batch checkout?')">
                 <div class="form-group">
                     <label>Select Cohort to Check Out</label>
                     <select name="batch_year" class="form-control" required>

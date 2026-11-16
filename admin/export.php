@@ -4,7 +4,7 @@ require_once '../config/db.php';
 
 if (isset($_GET['download']) && $_GET['download'] === 'csv') {
     header('Content-Type: text/csv');
-    header('Content-Disposition: attachment; filename="hostel_residents_' . date('Ymd') . '.csv"');
+    header('Content-Disposition: attachment; filename="hostel_residents_' . date('Y-m-d') . '.csv"');
 
     $output = fopen('php://output', 'w');
     fputcsv($output, ['Student ID', 'Full Name', 'Gender', 'Batch', 'Hostel', 'Room', 'Bed', 'Phone']);
