@@ -78,7 +78,7 @@ if (isset($_GET['reg_no']) && !empty(trim($_GET['reg_no']))) {
             <form method="GET" action="student-search.php">
                 <div class="form-group">
                     <label>Registration Number</label>
-                    <input type="text" name="reg_no" class="form-control" 
+                    <input type="text" name="reg_no" maxlength="20" placeholder="eg.2022/ICT/001" class="form-control" 
                            placeholder="2023/ICT/001" 
                            value="<?= htmlspecialchars($_GET['reg_no'] ?? '') ?>" 
                            style="text-transform: uppercase;" required>
